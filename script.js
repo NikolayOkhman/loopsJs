@@ -13,3 +13,8 @@ function displayArray(x) {
    console.log("The word is " + x);
 }
 array.forEach(displayArray);
+
+for (let i = 1; i < 11; i++) {
+   let b = prompt("הזן מילה " + i);
+   console.log(i + " " + "word is " + b);
+}
